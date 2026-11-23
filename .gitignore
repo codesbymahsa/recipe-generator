@@ -1,0 +1,33 @@
+# Secrets (API keys loaded with python-dotenv)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environment (uv)
+.venv/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Gradio
+.gradio/
+flagged/
+
+# Editors / IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+__MACOSX/
+Thumbs.db
+desktop.ini
